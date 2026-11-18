@@ -1,0 +1,59 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+env:
+  # Pinned to the stable v1 line; Dependabot doesn't track this, so bump it by
+  # hand: https://github.com/betterleaks/betterleaks/releases
+  BETTERLEAKS_VERSION: "1.10.1"
+
+jobs:
+  check:
+    name: Scan and Validate
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          # Full history, so the secret scan sees every commit, not just the
+          # latest files.
+          fetch-depth: 0
+
+      - name: Install Betterleaks
+        run: |
+          set -euo pipefail
+          base="https://github.com/betterleaks/betterleaks/releases/download/v${BETTERLEAKS_VERSION}"
+          archive="betterleaks_${BETTERLEAKS_VERSION}_linux_x64.tar.gz"
+          curl -sSfLO "${base}/${archive}"
+          curl -sSfLO "${base}/checksums.txt"
+          grep " ${archive}\$" checksums.txt | sha256sum -c -
+          tar -xzf "${archive}" betterleaks
+          sudo mv betterleaks /usr/local/bin/
+          betterleaks version
+
+      # Secrets first: a leaked secret must be rotated, whatever else is wrong.
+      # Fails the job if anything is found; --redact keeps secrets out of the log.
+      - name: Scan for Secrets
+        run: >-
+          betterleaks git .
+          --config .betterleaks.toml
+          --redact --verbose
+          --no-banner --no-color
+
+      # Runs only after the scan passes (GitHub's default: a failed step stops
+      # the job). Validation messages can quote a page's values (e.g. "got
+      # `…`"), which would put a secret in the log and annotations, where it
+      # outlives a history rewrite. Fixing a secret takes another push anyway.
+      # Annotates each finding on its file and line, lists them in the job
+      # summary, and checks D2 and Mermaid diagrams. Fails on OKF errors;
+      # warnings don't fail. https://github.com/okforest/validate-action
+      - name: OKForest Validate
+        uses: okforest/validate-action@v1
+        with:
+          path: okf

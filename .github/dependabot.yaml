@@ -1,0 +1,13 @@
+version: 2
+updates:
+  # Keeps the actions in .github/workflows/ (checkout, OKForest Validate)
+  # up to date. The Betterleaks version in ci.yaml is a plain variable,
+  # which Dependabot doesn't track: bump it by hand.
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "monthly"
+    groups:
+      github-actions:
+        patterns: ["*"]
+    open-pull-requests-limit: 10

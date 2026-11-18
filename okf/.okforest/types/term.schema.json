@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Term",
+  "description": "A word or phrase with a specific meaning at the company: jargon, acronyms, product names.",
+  "type": "object",
+  "properties": {
+    "aliases": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Other names and spellings, including acronyms."
+    }
+  },
+  "propertyNames": {
+    "not": {
+      "pattern": "(password|passwd|secret|token|api[_-]?key|private[_-]?key|account[_-]?number|routing)"
+    }
+  }
+}

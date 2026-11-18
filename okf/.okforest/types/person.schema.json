@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Person",
+  "description": "A member of the team: their job title and how to work with them. Roles they hold are recorded on each Role page.",
+  "type": "object",
+  "required": [
+    "job_title"
+  ],
+  "properties": {
+    "job_title": {
+      "type": "string",
+      "description": "Their job title, e.g. Founder. (OKF's `title` is the page's name: the person's name.)"
+    }
+  },
+  "propertyNames": {
+    "not": {
+      "pattern": "(password|passwd|secret|token|api[_-]?key|private[_-]?key|account[_-]?number|routing)"
+    }
+  }
+}

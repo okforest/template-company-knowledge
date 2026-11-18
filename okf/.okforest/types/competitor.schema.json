@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Competitor",
+  "description": "Another company customers compare us with: what they offer, and how we differ.",
+  "type": "object",
+  "required": [
+    "competes_with"
+  ],
+  "properties": {
+    "competes_with": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/product"
+      },
+      "minItems": 1,
+      "description": "Our products they compete with."
+    }
+  },
+  "propertyNames": {
+    "not": {
+      "pattern": "(password|passwd|secret|token|api[_-]?key|private[_-]?key|account[_-]?number|routing)"
+    }
+  },
+  "$defs": {
+    "product": {
+      "type": "string",
+      "pattern": "^/products/[a-z0-9-]+(/[a-z0-9-]+)*(\\.md)?$",
+      "description": "A product's page, e.g. /products/widget/overview."
+    }
+  }
+}

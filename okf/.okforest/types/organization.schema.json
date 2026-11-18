@@ -1,0 +1,37 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Organization",
+  "description": "The company itself: what it is legally, and where and when it began. Named after schema.org's Organization.",
+  "type": "object",
+  "properties": {
+    "legal_name": {
+      "type": "string",
+      "description": "The registered name, e.g. Acme Widgets, LLC."
+    },
+    "entity_type": {
+      "type": "string",
+      "description": "The kind of legal entity, e.g. LLC, C corporation, GmbH."
+    },
+    "jurisdiction": {
+      "type": "string",
+      "description": "Where it is registered, e.g. Delaware, United States."
+    },
+    "founded": {
+      "type": "integer",
+      "description": "The year it was founded."
+    },
+    "tax_id": {
+      "type": "string",
+      "description": "Its tax identifier (e.g. a US EIN). Not a secret: it appears on invoices and tax forms."
+    },
+    "headquarters": {
+      "type": "string",
+      "description": "Where it's based: a city and country."
+    }
+  },
+  "propertyNames": {
+    "not": {
+      "pattern": "(password|passwd|secret|token|api[_-]?key|private[_-]?key|account[_-]?number|routing)"
+    }
+  }
+}

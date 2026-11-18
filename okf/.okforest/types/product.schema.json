@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Product",
+  "description": "Something the company sells: what it does, who it's for, and where it stands.",
+  "type": "object",
+  "required": [
+    "owner",
+    "lifecycle"
+  ],
+  "properties": {
+    "owner": {
+      "$ref": "#/$defs/role",
+      "description": "The role responsible for keeping this page true."
+    },
+    "lifecycle": {
+      "enum": [
+        "in-development",
+        "beta",
+        "available",
+        "retired"
+      ],
+      "description": "Where the product stands."
+    },
+    "docs": {
+      "type": "string",
+      "description": "Where its public documentation lives."
+    },
+    "repository": {
+      "type": "string",
+      "description": "Where its code lives."
+    }
+  },
+  "propertyNames": {
+    "not": {
+      "pattern": "(password|passwd|secret|token|api[_-]?key|private[_-]?key|account[_-]?number|routing)"
+    }
+  },
+  "$defs": {
+    "role": {
+      "type": "string",
+      "pattern": "^/people/roles/[a-z0-9-]+(\\.md)?$",
+      "description": "A Role page, e.g. /people/roles/cfo."
+    }
+  }
+}

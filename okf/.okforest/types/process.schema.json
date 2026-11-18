@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Process",
+  "description": "How something gets done at the company: when it starts, the steps, and who does them.",
+  "type": "object",
+  "required": [
+    "owner"
+  ],
+  "properties": {
+    "owner": {
+      "$ref": "#/$defs/role",
+      "description": "The role responsible for keeping this page true."
+    },
+    "trigger": {
+      "type": "string",
+      "description": "What starts it, e.g. a new support ticket."
+    },
+    "frequency": {
+      "type": "string",
+      "description": "How often it runs, e.g. weekly, if it runs on a schedule."
+    }
+  },
+  "propertyNames": {
+    "not": {
+      "pattern": "(password|passwd|secret|token|api[_-]?key|private[_-]?key|account[_-]?number|routing)"
+    }
+  },
+  "$defs": {
+    "role": {
+      "type": "string",
+      "pattern": "^/people/roles/[a-z0-9-]+(\\.md)?$",
+      "description": "A Role page, e.g. /people/roles/cfo."
+    }
+  }
+}

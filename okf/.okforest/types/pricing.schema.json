@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Pricing",
+  "description": "How a product is priced: plans, prices, and the reasoning behind them.",
+  "type": "object",
+  "required": [
+    "owner",
+    "effective"
+  ],
+  "properties": {
+    "owner": {
+      "$ref": "#/$defs/role",
+      "description": "The role responsible for keeping this page true."
+    },
+    "effective": {
+      "$ref": "#/$defs/date",
+      "description": "When these prices took effect."
+    },
+    "model": {
+      "enum": [
+        "subscription",
+        "usage",
+        "one-time",
+        "free",
+        "custom"
+      ],
+      "description": "How customers pay."
+    },
+    "currency": {
+      "$ref": "#/$defs/currency",
+      "description": "The currency of the prices."
+    }
+  },
+  "propertyNames": {
+    "not": {
+      "pattern": "(password|passwd|secret|token|api[_-]?key|private[_-]?key|account[_-]?number|routing)"
+    }
+  },
+  "$defs": {
+    "role": {
+      "type": "string",
+      "pattern": "^/people/roles/[a-z0-9-]+(\\.md)?$",
+      "description": "A Role page, e.g. /people/roles/cfo."
+    },
+    "date": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+      "description": "A date: YYYY-MM-DD."
+    },
+    "currency": {
+      "type": "string",
+      "pattern": "^[A-Z]{3}$",
+      "description": "An ISO 4217 currency code, e.g. USD."
+    }
+  }
+}

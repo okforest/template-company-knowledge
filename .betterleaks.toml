@@ -1,0 +1,17 @@
+# Betterleaks config: the built-in rules plus one for passwords written in text.
+# Loaded with --config by .github/workflows/ci.yaml; Betterleaks does not load
+# this file automatically.
+[extend]
+useDefault = true
+
+# The built-in generic-password rule expects code or config ("password = x").
+# This one also catches how people write passwords in markdown: in prose
+# ("the password is x"), bold labels ("**Password:** x"), table cells
+# ("| password | x |"), and after a dash ("password — x").
+[[rules]]
+id = "prose-password"
+description = "A password written out in text (keep it in a password manager and record where instead)"
+regex = '''(?i)\bpass(?:word|phrase|code)s?\b[^\n|]{0,30}?(?:\bis\b|:|=|—|–|\|)[\s*_|]*["'`]?([^\s"'`*|]{8,})'''
+secretGroup = 1
+entropy = 3.0
+keywords = ["password", "passphrase", "passcode"]

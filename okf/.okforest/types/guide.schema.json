@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Guide",
+  "description": "An explanation of how something works or how to do it well. Assistants may paraphrase it.",
+  "type": "object",
+  "required": [
+    "owner"
+  ],
+  "properties": {
+    "owner": {
+      "$ref": "#/$defs/role",
+      "description": "The role responsible for keeping this page true."
+    }
+  },
+  "propertyNames": {
+    "not": {
+      "pattern": "(password|passwd|secret|token|api[_-]?key|private[_-]?key|account[_-]?number|routing)"
+    }
+  },
+  "$defs": {
+    "role": {
+      "type": "string",
+      "pattern": "^/people/roles/[a-z0-9-]+(\\.md)?$",
+      "description": "A Role page, e.g. /people/roles/cfo."
+    }
+  }
+}

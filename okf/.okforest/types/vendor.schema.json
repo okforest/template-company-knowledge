@@ -1,0 +1,91 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Vendor",
+  "description": "A company we buy from: what it's for, who owns it, what it costs, and where its credentials are kept.",
+  "type": "object",
+  "required": [
+    "category",
+    "owner"
+  ],
+  "properties": {
+    "category": {
+      "enum": [
+        "infrastructure",
+        "software",
+        "ai",
+        "finance",
+        "legal",
+        "marketing",
+        "sales",
+        "support",
+        "other"
+      ],
+      "description": "What kind of vendor it is."
+    },
+    "owner": {
+      "$ref": "#/$defs/role",
+      "description": "The role responsible for keeping this page true."
+    },
+    "plan": {
+      "type": "string",
+      "description": "The plan or tier we're on."
+    },
+    "cost": {
+      "type": "object",
+      "required": [
+        "amount",
+        "currency",
+        "period"
+      ],
+      "properties": {
+        "amount": {
+          "type": "number",
+          "minimum": 0
+        },
+        "currency": {
+          "$ref": "#/$defs/currency"
+        },
+        "period": {
+          "enum": [
+            "month",
+            "year",
+            "one-time",
+            "usage"
+          ]
+        }
+      },
+      "additionalProperties": false,
+      "description": "What it costs."
+    },
+    "renewal": {
+      "$ref": "#/$defs/date",
+      "description": "When the contract or subscription renews."
+    },
+    "credentials": {
+      "type": "string",
+      "description": "Where credentials are kept, e.g. <password manager> › <vault> › <item>. Never the credentials themselves."
+    }
+  },
+  "propertyNames": {
+    "not": {
+      "pattern": "(password|passwd|secret|token|api[_-]?key|private[_-]?key|account[_-]?number|routing)"
+    }
+  },
+  "$defs": {
+    "role": {
+      "type": "string",
+      "pattern": "^/people/roles/[a-z0-9-]+(\\.md)?$",
+      "description": "A Role page, e.g. /people/roles/cfo."
+    },
+    "date": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+      "description": "A date: YYYY-MM-DD."
+    },
+    "currency": {
+      "type": "string",
+      "pattern": "^[A-Z]{3}$",
+      "description": "An ISO 4217 currency code, e.g. USD."
+    }
+  }
+}

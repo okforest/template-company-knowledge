@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Policy",
+  "description": "A rule people at the company must follow, and why.",
+  "type": "object",
+  "required": [
+    "owner"
+  ],
+  "properties": {
+    "owner": {
+      "$ref": "#/$defs/role",
+      "description": "The role responsible for keeping this page true."
+    },
+    "effective": {
+      "$ref": "#/$defs/date",
+      "description": "When the policy took effect."
+    },
+    "applies_to": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Who it applies to, e.g. everyone, contractors, AI agents."
+    }
+  },
+  "propertyNames": {
+    "not": {
+      "pattern": "(password|passwd|secret|token|api[_-]?key|private[_-]?key|account[_-]?number|routing)"
+    }
+  },
+  "$defs": {
+    "role": {
+      "type": "string",
+      "pattern": "^/people/roles/[a-z0-9-]+(\\.md)?$",
+      "description": "A Role page, e.g. /people/roles/cfo."
+    },
+    "date": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+      "description": "A date: YYYY-MM-DD."
+    }
+  }
+}

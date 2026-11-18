@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Persona",
+  "description": "A kind of person who buys or uses the company's products: their goals, problems, and how to reach them.",
+  "type": "object",
+  "required": [
+    "buying_role"
+  ],
+  "properties": {
+    "buying_role": {
+      "enum": [
+        "buyer",
+        "user",
+        "champion",
+        "influencer"
+      ],
+      "description": "Their part in a purchase."
+    },
+    "job_titles": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Titles they typically hold."
+    }
+  },
+  "propertyNames": {
+    "not": {
+      "pattern": "(password|passwd|secret|token|api[_-]?key|private[_-]?key|account[_-]?number|routing)"
+    }
+  }
+}

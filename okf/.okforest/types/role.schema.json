@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Role",
+  "description": "A function at the company, such as CFO: what it's responsible for, and who holds it. A person may hold several roles.",
+  "type": "object",
+  "required": [
+    "state"
+  ],
+  "properties": {
+    "state": {
+      "enum": [
+        "filled",
+        "interim",
+        "open"
+      ],
+      "description": "filled: held as someone's main job; interim: covered by someone alongside other roles; open: no one."
+    },
+    "reports_to": {
+      "$ref": "#/$defs/role",
+      "description": "The role this one reports to."
+    },
+    "held_by": {
+      "$ref": "#/$defs/person",
+      "description": "Who holds it now."
+    },
+    "employment": {
+      "enum": [
+        "employee",
+        "contractor",
+        "ai-agent"
+      ],
+      "description": "How the role is staffed."
+    },
+    "leadership": {
+      "type": "boolean",
+      "description": "Whether the role is part of the leadership team."
+    }
+  },
+  "propertyNames": {
+    "not": {
+      "pattern": "(password|passwd|secret|token|api[_-]?key|private[_-]?key|account[_-]?number|routing)"
+    }
+  },
+  "$defs": {
+    "role": {
+      "type": "string",
+      "pattern": "^/people/roles/[a-z0-9-]+(\\.md)?$",
+      "description": "A Role page, e.g. /people/roles/cfo."
+    },
+    "person": {
+      "type": "string",
+      "pattern": "^/people/team/[a-z0-9-]+(\\.md)?$",
+      "description": "A Person page, e.g. /people/team/jane-doe."
+    }
+  }
+}
