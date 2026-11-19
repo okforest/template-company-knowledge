@@ -3,7 +3,7 @@
 <!-- From the OKForest company knowledge template. Make it yours: add how your
 company works with this repository, and remove anything that doesn't apply. -->
 
-{{company_name}} knowledge: what the company is and how it operates, as an
+{{company_name}} Knowledge: what the company is and how it operates, as an
 [OKF v0.2](https://github.com/GoogleCloudPlatform/open-knowledge-format)
 bundle in `okf/`, managed with [OKForest](https://www.okforest.ai). People
 read it to learn the company; AI assistants use it to answer questions about

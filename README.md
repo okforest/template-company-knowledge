@@ -1,4 +1,4 @@
-# {{company_name}} knowledge
+# {{company_name}} Knowledge
 
 What {{company_name}} is and how it operates: its products, market, revenue
 operations, people, operations, finance, and legal. Written for people joining

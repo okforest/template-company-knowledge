@@ -2,7 +2,7 @@
 okf_version: "0.2"
 ---
 
-# Company knowledge
+# Company Knowledge
 
 * [Company](company/index.md) - Who we are: overview, mission, vision, values, history, brand, and glossary.
 * [Products](products/index.md) - What we sell: one folder per product, with its overview, pricing, and roadmap.
