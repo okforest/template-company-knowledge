@@ -15,3 +15,7 @@ regex = '''(?i)\bpass(?:word|phrase|code)s?\b[^\n|]{0,30}?(?:\bis\b|:|=|—|–|
 secretGroup = 1
 entropy = 3.0
 keywords = ["password", "passphrase", "passcode"]
+# A link or a path after "password:" is where to go, not the password.
+filter = '''
+matchesAny(finding["secret"], [`^/`, `://`])
+'''
