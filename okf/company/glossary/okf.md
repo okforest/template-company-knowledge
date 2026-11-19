@@ -12,7 +12,7 @@ x-aliases: [OKF]
 The Open Knowledge Format (OKF) stores knowledge as plain markdown files, one
 concept per file, each starting with YAML frontmatter that gives at least its
 `type`. A folder of these files is a bundle; this repository's bundle is in
-`okf/`. See the [specification](https://github.com/GoogleCloudPlatform/open-knowledge-format/blob/main/SPEC.md).
+`okf/`. See the [specification](https://github.com/open-knowledge-format/open-knowledge-format/blob/main/SPEC.md).
 
 # Usage
 

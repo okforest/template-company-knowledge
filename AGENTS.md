@@ -4,10 +4,11 @@
 company works with this repository, and remove anything that doesn't apply. -->
 
 {{company_name}} Knowledge: what the company is and how it operates, as an
-[OKF v0.3](https://github.com/open-knowledge-format/open-knowledge-format)
-bundle in `okf/`, managed with [OKForest](https://www.okforest.ai). People
-read it to learn the company; AI assistants use it to answer questions about
-it. Write for both.
+[OKF](https://raw.githubusercontent.com/open-knowledge-format/open-knowledge-format/refs/heads/main/SPEC.md)
+bundle in `okf/`, managed with [OKForest](https://www.okforest.ai). The OKF
+version it follows is `okf_version` in `okf/index.md`. People read it to
+learn the company; AI assistants use it to answer questions about it. Write
+for both.
 
 Everything outside `okf/` (this file, `README.md`, `.github/`,
 `.betterleaks.toml`) is repository setup, not knowledge. Commands below run

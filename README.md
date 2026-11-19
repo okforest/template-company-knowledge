@@ -4,9 +4,10 @@ What {{company_name}} is and how it operates: its products, market, revenue
 operations, people, operations, finance, and legal. Written for people joining
 the company and for the AI assistants that work with it.
 
-The knowledge is an [Open Knowledge Format (OKF)](https://github.com/open-knowledge-format/open-knowledge-format)
-v0.3 bundle in [`okf/`](okf/index.md): one markdown file per concept, with
-YAML frontmatter. Start at [`okf/index.md`](okf/index.md).
+The knowledge is an [Open Knowledge Format (OKF)](https://github.com/open-knowledge-format/open-knowledge-format/blob/main/SPEC.md)
+bundle in [`okf/`](okf/index.md): one markdown file per concept, with YAML
+frontmatter. Start at [`okf/index.md`](okf/index.md), which declares the OKF
+version it follows (`okf_version`).
 
 ## Using this template
 
