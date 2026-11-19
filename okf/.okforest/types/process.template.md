@@ -1,9 +1,9 @@
 ---
 type: Process
 status: draft
-owner:
-# trigger: A new support ticket
-# frequency: weekly
+x-owner:
+# x-trigger: A new support ticket
+# x-frequency: weekly
 ---
 
 # Purpose

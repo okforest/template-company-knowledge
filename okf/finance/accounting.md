@@ -4,8 +4,8 @@ title: Accounting
 description: How the books are kept, closed each month, and filed.
 tags: [finance]
 status: draft
-owner: /people/roles/cfo
-# frequency: monthly
+x-owner: /people/roles/cfo
+# x-frequency: monthly
 ---
 
 # Purpose

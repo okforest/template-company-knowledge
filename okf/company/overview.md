@@ -5,12 +5,12 @@ description: What the company does, why it exists, and who it serves.
 tags: [company]
 status: draft
 # resource: https://www.example.com
-# legal_name: Acme Widgets, LLC
-# entity_type: LLC
-# jurisdiction: Delaware, United States
-# founded: 2024
-# tax_id: 00-0000000
-# headquarters: Austin, United States
+# x-legal-name: Acme Widgets, LLC
+# x-entity-type: LLC
+# x-jurisdiction: Delaware, United States
+# x-founded: 2024
+# x-tax-id: 00-0000000
+# x-headquarters: Austin, United States
 ---
 
 # What we do
@@ -33,6 +33,6 @@ profile](/market/ideal-customer-profile.md).
 
 # Legal entity
 
-<!-- Fill in legal_name, entity_type, jurisdiction, and tax_id above. The tax
+<!-- Fill in the legal name, entity type, jurisdiction, and tax ID above. The tax
 ID is not a secret; bank details and passwords never go here (see the
 [secrets policy](/operations/secrets-policy.md)). -->

@@ -4,7 +4,7 @@ title: Voice and tone
 description: How the company sounds in writing, and how that changes by situation.
 tags: [brand]
 status: draft
-owner: /people/roles/cmo
+x-owner: /people/roles/cmo
 ---
 
 # Voice

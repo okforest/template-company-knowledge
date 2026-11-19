@@ -4,7 +4,7 @@ title: Marketing channels
 description: Where we reach people, what each channel is for, and how it's working.
 tags: [marketing]
 status: draft
-owner: /people/roles/cmo
+x-owner: /people/roles/cmo
 ---
 
 # Channels

@@ -1,11 +1,11 @@
 ---
 type: Budget
 status: draft
-owner:
-period:
-currency:
-# state: proposed
-# approved_by: /people/roles/ceo
+x-owner:
+x-period:
+x-currency:
+# x-state: proposed
+# x-approved-by: /people/roles/ceo
 ---
 
 # Summary

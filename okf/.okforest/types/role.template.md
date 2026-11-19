@@ -1,11 +1,11 @@
 ---
 type: Role
 status: draft
-state:
-# reports_to: /people/roles/ceo
-# held_by: /people/team/jane-doe
-# employment: employee
-# leadership: false
+x-state:
+# x-reports-to: /people/roles/ceo
+# x-held-by: /people/team/jane-doe
+# x-employment: employee
+# x-leadership: false
 ---
 
 # Responsibilities
@@ -14,7 +14,7 @@ state:
 
 # Owns
 
-<!-- The pages that name this role as owner. -->
+<!-- The pages whose x-owner is this role. -->
 
 # Decisions
 

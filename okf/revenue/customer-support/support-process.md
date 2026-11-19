@@ -4,8 +4,8 @@ title: Support process
 description: How a customer request is received, answered, and closed.
 tags: [support]
 status: draft
-owner: /people/roles/cro
-# trigger: A customer asks for help
+x-owner: /people/roles/cro
+# x-trigger: A customer asks for help
 ---
 
 # Purpose

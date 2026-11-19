@@ -4,7 +4,7 @@ title: Intellectual property
 description: "What the company owns: trademarks, domains, and copyrights, and how to protect them."
 tags: [legal]
 status: draft
-owner: /people/roles/coo
+x-owner: /people/roles/coo
 ---
 
 # Trademarks

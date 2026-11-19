@@ -1,10 +1,10 @@
 ---
 type: Pricing
 status: draft
-owner:
-effective:
-# model: subscription
-# currency: USD
+x-owner:
+x-effective:
+# x-model: subscription
+# x-currency: USD
 ---
 
 # Plans

@@ -1,10 +1,10 @@
 ---
 type: Customer Profile
 status: draft
-# industries: [logistics, retail]
-# company_size: 50 to 500 employees
-# regions: [North America]
-# buyer: Head of Operations
+# x-industries: [logistics, retail]
+# x-company-size: 50 to 500 employees
+# x-regions: [North America]
+# x-buyer: Head of Operations
 ---
 
 # Who they are

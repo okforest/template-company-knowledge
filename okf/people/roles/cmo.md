@@ -4,11 +4,11 @@ title: CMO
 description: "Chief Marketing Officer: owns the brand, the market, and marketing."
 tags: [people]
 status: draft
-state: open
-reports_to: /people/roles/ceo
-leadership: true
-# held_by: /people/team/jane-doe
-# employment: employee
+x-state: open
+x-reports-to: /people/roles/ceo
+x-leadership: true
+# x-held-by: /people/team/jane-doe
+# x-employment: employee
 ---
 
 # Responsibilities

@@ -1,13 +1,13 @@
 ---
 type: Vendor
 status: draft
-category:
-owner:
+x-category:
+x-owner:
 # resource: https://vendor.example
-# plan: Team
-# cost: { amount: 0, currency: USD, period: month }
-# renewal: 2027-01-31
-# credentials: "<password manager> › <vault> › <item>"
+# x-plan: Team
+# x-cost: { amount: 0, currency: USD, period: month }
+# x-renewal: 2027-01-31
+# x-credentials: "<password manager> › <vault> › <item>"
 ---
 
 # What we use it for
@@ -17,7 +17,7 @@ owner:
 # Access
 
 <!-- Who has accounts, and how to get one. Say where credentials are kept
-(the `credentials` field); never paste them here. -->
+(the `x-credentials` field); never paste them here. -->
 
 # Data it holds
 

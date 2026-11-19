@@ -4,8 +4,8 @@ title: Compliance
 description: The laws, regulations, and standards the company must meet, and how.
 tags: [legal]
 status: draft
-owner: /people/roles/coo
-# effective: 2027-01-31
+x-owner: /people/roles/coo
+# x-effective: 2027-01-31
 ---
 
 # Policy

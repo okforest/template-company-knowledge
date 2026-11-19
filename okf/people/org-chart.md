@@ -4,7 +4,7 @@ title: Org chart
 description: How the roles report to each other.
 tags: [people]
 status: draft
-owner: /people/roles/coo
+x-owner: /people/roles/coo
 ---
 
 # Roles
@@ -19,4 +19,4 @@ flowchart TD
 ```
 
 Each box is a [role](/people/roles/index.md); who holds it is on the role's
-page. Keep this diagram in step with each role's `reports_to`.
+page. Keep this diagram in step with each role's `x-reports-to`.

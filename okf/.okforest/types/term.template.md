@@ -1,7 +1,7 @@
 ---
 type: Term
 status: draft
-# aliases: []
+# x-aliases: []
 ---
 
 # Definition

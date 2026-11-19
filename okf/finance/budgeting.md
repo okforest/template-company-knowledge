@@ -4,8 +4,8 @@ title: Budgeting
 description: How budgets are set, approved, and tracked.
 tags: [finance]
 status: draft
-owner: /people/roles/cfo
-# frequency: yearly
+x-owner: /people/roles/cfo
+# x-frequency: yearly
 ---
 
 # Purpose

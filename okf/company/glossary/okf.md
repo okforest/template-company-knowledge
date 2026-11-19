@@ -4,7 +4,7 @@ title: Open Knowledge Format
 description: "The open format this knowledge is written in: markdown files with YAML frontmatter."
 tags: [glossary]
 status: draft
-aliases: [OKF]
+x-aliases: [OKF]
 ---
 
 # Definition

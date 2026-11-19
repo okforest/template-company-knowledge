@@ -4,11 +4,11 @@ title: CFO
 description: "Chief Financial Officer: owns budgets, pricing, billing, and accounting."
 tags: [people]
 status: draft
-state: open
-reports_to: /people/roles/ceo
-leadership: true
-# held_by: /people/team/jane-doe
-# employment: employee
+x-state: open
+x-reports-to: /people/roles/ceo
+x-leadership: true
+# x-held-by: /people/team/jane-doe
+# x-employment: employee
 ---
 
 # Responsibilities

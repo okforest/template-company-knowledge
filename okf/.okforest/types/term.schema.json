@@ -4,7 +4,7 @@
   "description": "A word or phrase with a specific meaning at the company: jargon, acronyms, product names.",
   "type": "object",
   "properties": {
-    "aliases": {
+    "x-aliases": {
       "type": "array",
       "items": {
         "type": "string"

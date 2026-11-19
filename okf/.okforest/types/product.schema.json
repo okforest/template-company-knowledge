@@ -4,15 +4,15 @@
   "description": "Something the company sells: what it does, who it's for, and where it stands.",
   "type": "object",
   "required": [
-    "owner",
-    "lifecycle"
+    "x-owner",
+    "x-lifecycle"
   ],
   "properties": {
-    "owner": {
+    "x-owner": {
       "$ref": "#/$defs/role",
       "description": "The role responsible for keeping this page true."
     },
-    "lifecycle": {
+    "x-lifecycle": {
       "enum": [
         "in-development",
         "beta",
@@ -21,11 +21,11 @@
       ],
       "description": "Where the product stands."
     },
-    "docs": {
+    "x-docs": {
       "type": "string",
       "description": "Where its public documentation lives."
     },
-    "repository": {
+    "x-repository": {
       "type": "string",
       "description": "Where its code lives."
     }

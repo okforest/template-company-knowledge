@@ -4,10 +4,10 @@
   "description": "Another company customers compare us with: what they offer, and how we differ.",
   "type": "object",
   "required": [
-    "competes_with"
+    "x-competes-with"
   ],
   "properties": {
-    "competes_with": {
+    "x-competes-with": {
       "type": "array",
       "items": {
         "$ref": "#/$defs/product"

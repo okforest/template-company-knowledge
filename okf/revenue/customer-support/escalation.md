@@ -4,8 +4,8 @@ title: Escalation
 description: When and how a customer issue is escalated, and to whom.
 tags: [support]
 status: draft
-owner: /people/roles/cro
-# trigger: A request can't be resolved within its service level
+x-owner: /people/roles/cro
+# x-trigger: A request can't be resolved within its service level
 ---
 
 # Purpose

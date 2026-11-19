@@ -4,8 +4,8 @@ title: Vision
 description: The future the company is working toward.
 tags: [company]
 status: draft
-owner: /people/roles/ceo
-# adopted: 2027-01-31
+x-owner: /people/roles/ceo
+# x-adopted: 2027-01-31
 ---
 
 # Statement

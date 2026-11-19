@@ -4,7 +4,7 @@ title: Competitive landscape
 description: The alternatives customers consider, and how we compare.
 tags: [market]
 status: draft
-owner: /people/roles/cmo
+x-owner: /people/roles/cmo
 ---
 
 # Alternatives

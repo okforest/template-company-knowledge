@@ -4,10 +4,10 @@
   "description": "A function at the company, such as CFO: what it's responsible for, and who holds it. A person may hold several roles.",
   "type": "object",
   "required": [
-    "state"
+    "x-state"
   ],
   "properties": {
-    "state": {
+    "x-state": {
       "enum": [
         "filled",
         "interim",
@@ -15,15 +15,15 @@
       ],
       "description": "filled: held as someone's main job; interim: covered by someone alongside other roles; open: no one."
     },
-    "reports_to": {
+    "x-reports-to": {
       "$ref": "#/$defs/role",
       "description": "The role this one reports to."
     },
-    "held_by": {
+    "x-held-by": {
       "$ref": "#/$defs/person",
       "description": "Who holds it now."
     },
-    "employment": {
+    "x-employment": {
       "enum": [
         "employee",
         "contractor",
@@ -31,7 +31,7 @@
       ],
       "description": "How the role is staffed."
     },
-    "leadership": {
+    "x-leadership": {
       "type": "boolean",
       "description": "Whether the role is part of the leadership team."
     }

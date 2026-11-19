@@ -4,9 +4,9 @@ title: Security
 description: How we protect company and customer systems and data, and what to do in an incident.
 tags: [operations]
 status: draft
-owner: /people/roles/cto
-# effective: 2027-01-31
-applies_to: [everyone, contractors, ai-agents]
+x-owner: /people/roles/cto
+# x-effective: 2027-01-31
+x-applies-to: [everyone, contractors, ai-agents]
 ---
 
 # Policy

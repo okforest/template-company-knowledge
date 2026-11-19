@@ -1,11 +1,11 @@
 ---
 type: Agreement
 status: draft
-owner:
-kind:
-# counterparty: Acme Widgets, LLC
-# effective: 2027-01-31
-# expires: 2028-01-31
+x-owner:
+x-kind:
+# x-counterparty: Acme Widgets, LLC
+# x-effective: 2027-01-31
+# x-expires: 2028-01-31
 # resource: <where the signed copy is kept>
 ---
 

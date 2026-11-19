@@ -2,12 +2,12 @@
 type: Organization
 status: draft
 # resource: https://www.example.com
-# legal_name: Acme Widgets, LLC
-# entity_type: LLC
-# jurisdiction: Delaware, United States
-# founded: 2024
-# tax_id: 00-0000000
-# headquarters: Austin, United States
+# x-legal-name: Acme Widgets, LLC
+# x-entity-type: LLC
+# x-jurisdiction: Delaware, United States
+# x-founded: 2024
+# x-tax-id: 00-0000000
+# x-headquarters: Austin, United States
 ---
 
 # What we do

@@ -4,19 +4,19 @@
   "description": "How a product is priced: plans, prices, and the reasoning behind them.",
   "type": "object",
   "required": [
-    "owner",
-    "effective"
+    "x-owner",
+    "x-effective"
   ],
   "properties": {
-    "owner": {
+    "x-owner": {
       "$ref": "#/$defs/role",
       "description": "The role responsible for keeping this page true."
     },
-    "effective": {
+    "x-effective": {
       "$ref": "#/$defs/date",
       "description": "When these prices took effect."
     },
-    "model": {
+    "x-model": {
       "enum": [
         "subscription",
         "usage",
@@ -26,7 +26,7 @@
       ],
       "description": "How customers pay."
     },
-    "currency": {
+    "x-currency": {
       "$ref": "#/$defs/currency",
       "description": "The currency of the prices."
     }

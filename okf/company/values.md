@@ -4,8 +4,8 @@ title: Values
 description: The principles that guide how the company works and decides.
 tags: [company]
 status: draft
-owner: /people/roles/ceo
-# adopted: 2027-01-31
+x-owner: /people/roles/ceo
+# x-adopted: 2027-01-31
 ---
 
 # Values
