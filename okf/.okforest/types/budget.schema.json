@@ -4,31 +4,31 @@
   "description": "What the company plans to spend over a period, by area, and who approved it.",
   "type": "object",
   "required": [
-    "owner",
-    "period",
-    "currency"
+    "x-owner",
+    "x-period",
+    "x-currency"
   ],
   "properties": {
-    "owner": {
+    "x-owner": {
       "$ref": "#/$defs/role",
       "description": "The role responsible for keeping this page true."
     },
-    "period": {
+    "x-period": {
       "$ref": "#/$defs/period",
       "description": "The period the budget covers."
     },
-    "currency": {
+    "x-currency": {
       "$ref": "#/$defs/currency",
       "description": "The currency of the amounts."
     },
-    "state": {
+    "x-state": {
       "enum": [
         "proposed",
         "approved"
       ],
       "description": "Whether it has been approved."
     },
-    "approved_by": {
+    "x-approved-by": {
       "$ref": "#/$defs/role",
       "description": "The role that approved it."
     }

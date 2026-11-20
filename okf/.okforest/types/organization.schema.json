@@ -4,27 +4,27 @@
   "description": "The company itself: what it is legally, and where and when it began. Named after schema.org's Organization.",
   "type": "object",
   "properties": {
-    "legal_name": {
+    "x-legal-name": {
       "type": "string",
       "description": "The registered name, e.g. Acme Widgets, LLC."
     },
-    "entity_type": {
+    "x-entity-type": {
       "type": "string",
       "description": "The kind of legal entity, e.g. LLC, C corporation, GmbH."
     },
-    "jurisdiction": {
+    "x-jurisdiction": {
       "type": "string",
       "description": "Where it is registered, e.g. Delaware, United States."
     },
-    "founded": {
+    "x-founded": {
       "type": "integer",
       "description": "The year it was founded."
     },
-    "tax_id": {
+    "x-tax-id": {
       "type": "string",
       "description": "Its tax identifier (e.g. a US EIN). Not a secret: it appears on invoices and tax forms."
     },
-    "headquarters": {
+    "x-headquarters": {
       "type": "string",
       "description": "Where it's based: a city and country."
     }

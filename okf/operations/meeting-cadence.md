@@ -4,8 +4,8 @@ title: Meeting cadence
 description: "The company's recurring meetings: their purpose, attendees, and outputs."
 tags: [operations]
 status: draft
-owner: /people/roles/coo
-# frequency: weekly
+x-owner: /people/roles/coo
+# x-frequency: weekly
 ---
 
 # Meetings

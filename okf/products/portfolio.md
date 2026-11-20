@@ -4,7 +4,7 @@ title: Product portfolio
 description: What the company sells, and how the products fit together.
 tags: [products]
 status: draft
-owner: /people/roles/ceo
+x-owner: /people/roles/ceo
 ---
 
 # Products

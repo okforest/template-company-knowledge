@@ -4,9 +4,9 @@ title: Secrets policy
 description: Secrets never go in this repository; it records where they are kept.
 tags: [operations]
 status: draft
-owner: /people/roles/coo
-# effective: 2027-01-31
-applies_to: [everyone, contractors, ai-agents]
+x-owner: /people/roles/coo
+# x-effective: 2027-01-31
+x-applies-to: [everyone, contractors, ai-agents]
 ---
 
 # Policy
@@ -22,7 +22,7 @@ Never write these anywhere in the repository, including drafts:
 - bank account and routing numbers, and payment card numbers
 - anyone's government ID number
 
-Instead, give the location, in a `credentials` field or in the text:
+Instead, give the location, in an `x-credentials` field or in the text:
 `{{password_manager}} › <vault> › <item>`.
 
 These are not secrets and may be recorded: the company's tax ID, registration

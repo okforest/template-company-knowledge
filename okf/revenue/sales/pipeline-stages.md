@@ -4,7 +4,7 @@ title: Pipeline stages
 description: The stages a deal moves through, and what must be true to enter each one.
 tags: [sales]
 status: draft
-owner: /people/roles/cro
+x-owner: /people/roles/cro
 ---
 
 # Stages

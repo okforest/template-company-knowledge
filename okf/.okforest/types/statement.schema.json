@@ -4,14 +4,14 @@
   "description": "Exact wording the company has agreed on, such as its mission or boilerplate. Quote it verbatim; don't paraphrase it.",
   "type": "object",
   "required": [
-    "owner"
+    "x-owner"
   ],
   "properties": {
-    "owner": {
+    "x-owner": {
       "$ref": "#/$defs/role",
       "description": "The role responsible for keeping this page true."
     },
-    "adopted": {
+    "x-adopted": {
       "$ref": "#/$defs/date",
       "description": "When this wording was agreed."
     }

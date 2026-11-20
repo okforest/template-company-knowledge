@@ -1,8 +1,8 @@
 ---
 type: Persona
 status: draft
-buying_role:
-# job_titles: []
+x-buying-role:
+# x-job-titles: []
 ---
 
 # Goals

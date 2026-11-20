@@ -4,15 +4,15 @@
   "description": "A contract or legal document: who it's with, its key terms, and where the signed copy is kept.",
   "type": "object",
   "required": [
-    "owner",
-    "kind"
+    "x-owner",
+    "x-kind"
   ],
   "properties": {
-    "owner": {
+    "x-owner": {
       "$ref": "#/$defs/role",
       "description": "The role responsible for keeping this page true."
     },
-    "kind": {
+    "x-kind": {
       "enum": [
         "terms-of-service",
         "privacy-policy",
@@ -24,15 +24,15 @@
       ],
       "description": "What kind of agreement it is."
     },
-    "counterparty": {
+    "x-counterparty": {
       "type": "string",
       "description": "Who it's with, or 'customers' for a standard agreement."
     },
-    "effective": {
+    "x-effective": {
       "$ref": "#/$defs/date",
       "description": "When it took effect."
     },
-    "expires": {
+    "x-expires": {
       "$ref": "#/$defs/date",
       "description": "When it ends or renews."
     }

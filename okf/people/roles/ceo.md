@@ -4,10 +4,10 @@ title: CEO
 description: "Chief Executive Officer: sets direction and owns the company's mission, vision, and values."
 tags: [people]
 status: draft
-state: open
-leadership: true
-# held_by: /people/team/jane-doe
-# employment: employee
+x-state: open
+x-leadership: true
+# x-held-by: /people/team/jane-doe
+# x-employment: employee
 ---
 
 # Responsibilities

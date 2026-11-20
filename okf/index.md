@@ -1,5 +1,7 @@
 ---
-okf_version: "0.2"
+okf_version: "0.3"
+title: "{{company_name}} Knowledge"
+description: What {{company_name}} is and how it operates, for people joining the company and the AI assistants that work with it.
 ---
 
 # Company Knowledge

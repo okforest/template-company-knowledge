@@ -4,8 +4,8 @@ title: Positioning
 description: The category we compete in, who we're for, and why we're different, as agreed wording.
 tags: [market]
 status: draft
-owner: /people/roles/cmo
-# adopted: 2027-01-31
+x-owner: /people/roles/cmo
+# x-adopted: 2027-01-31
 ---
 
 # Positioning statement

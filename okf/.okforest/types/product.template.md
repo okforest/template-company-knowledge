@@ -1,11 +1,11 @@
 ---
 type: Product
 status: draft
-owner:
-lifecycle:
+x-owner:
+x-lifecycle:
 # resource: https://www.example.com/product
-# docs: https://docs.example.com
-# repository: https://github.com/acme/product
+# x-docs: https://docs.example.com
+# x-repository: https://github.com/acme/product
 ---
 
 # What it does

@@ -4,7 +4,7 @@ title: Visual identity
 description: The logo, colors, and typography, and how to use them.
 tags: [brand]
 status: draft
-owner: /people/roles/cmo
+x-owner: /people/roles/cmo
 ---
 
 # Logo

@@ -4,25 +4,25 @@
   "description": "A kind of customer the company serves well, and how to recognize one.",
   "type": "object",
   "properties": {
-    "industries": {
+    "x-industries": {
       "type": "array",
       "items": {
         "type": "string"
       },
       "description": "The industries they work in."
     },
-    "company_size": {
+    "x-company-size": {
       "type": "string",
       "description": "How big they are, like 50 to 500 employees."
     },
-    "regions": {
+    "x-regions": {
       "type": "array",
       "items": {
         "type": "string"
       },
       "description": "Where they are."
     },
-    "buyer": {
+    "x-buyer": {
       "type": "string",
       "description": "The role of the person who buys, like Head of Operations."
     }

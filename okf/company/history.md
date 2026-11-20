@@ -4,7 +4,7 @@ title: History
 description: How the company started and the milestones since.
 tags: [company]
 status: draft
-owner: /people/roles/ceo
+x-owner: /people/roles/ceo
 ---
 
 # Founding

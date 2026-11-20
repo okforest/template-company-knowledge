@@ -4,10 +4,10 @@
   "description": "A kind of person who buys or uses the company's products: their goals, problems, and how to reach them.",
   "type": "object",
   "required": [
-    "buying_role"
+    "x-buying-role"
   ],
   "properties": {
-    "buying_role": {
+    "x-buying-role": {
       "enum": [
         "buyer",
         "user",
@@ -16,7 +16,7 @@
       ],
       "description": "Their part in a purchase."
     },
-    "job_titles": {
+    "x-job-titles": {
       "type": "array",
       "items": {
         "type": "string"

@@ -1,8 +1,8 @@
 ---
 type: Statement
 status: draft
-owner:
-# adopted: 2027-01-31
+x-owner:
+# x-adopted: 2027-01-31
 ---
 
 # Statement

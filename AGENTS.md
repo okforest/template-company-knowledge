@@ -4,10 +4,11 @@
 company works with this repository, and remove anything that doesn't apply. -->
 
 {{company_name}} Knowledge: what the company is and how it operates, as an
-[OKF v0.2](https://github.com/GoogleCloudPlatform/open-knowledge-format)
-bundle in `okf/`, managed with [OKForest](https://www.okforest.ai). People
-read it to learn the company; AI assistants use it to answer questions about
-it. Write for both.
+[OKF](https://raw.githubusercontent.com/open-knowledge-format/open-knowledge-format/refs/heads/main/SPEC.md)
+bundle in `okf/`, managed with [OKForest](https://www.okforest.ai). The OKF
+version it follows is `okf_version` in `okf/index.md`. People read it to
+learn the company; AI assistants use it to answer questions about it. Write
+for both.
 
 Everything outside `okf/` (this file, `README.md`, `.github/`,
 `.betterleaks.toml`) is repository setup, not knowledge. Commands below run
@@ -42,6 +43,9 @@ password manager) rather than guessing.
   type or tag, to reuse an existing one.
 - Every concept has a `title` and a one-sentence `description`. New or
   unreviewed pages are `status: draft`.
+- Fields OKF doesn't define start with `x-` (`x-owner`), so a later OKF
+  version can't give them another meaning. Name a new field the same way,
+  and add it to its type's schema and template in the same change.
 - Link with standard markdown links, using absolute paths from the bundle
   root (`okf/`): `[ideal customer profile](/market/ideal-customer-profile.md)`.
 - `index.md` and `log.md` are reserved names in every folder. Keep each
@@ -64,15 +68,15 @@ password manager) rather than guessing.
 
 ## Roles and ownership
 
-- `owner`, `reports_to`, and `approved_by` point to a Role page:
-  `owner: /people/roles/cfo`. Never put a person's name there, so ownership
-  stays correct when people change roles.
-- A role is a function (CEO, CFO, CMO…). A person has a `job_title` on their
-  page in `people/team/`, and one person may hold many roles.
-- Who holds a role is recorded only on the Role page (`held_by`). Don't also
-  list roles on the Person page.
-- Only create a role that owns something: it is the `owner` of at least one
-  page, or has responsibilities no existing role covers. When a role no
+- `x-owner`, `x-reports-to`, and `x-approved-by` point to a Role page:
+  `x-owner: /people/roles/cfo`. Never put a person's name there, so
+  ownership stays correct when people change roles.
+- A role is a function (CEO, CFO, CMO…). A person has an `x-job-title` on
+  their page in `people/team/`, and one person may hold many roles.
+- Who holds a role is recorded only on the Role page (`x-held-by`). Don't
+  also list roles on the Person page.
+- Only create a role that owns something: it is the `x-owner` of at least
+  one page, or has responsibilities no existing role covers. When a role no
   longer owns anything, propose removing it.
 
 ## Secrets and personal data
@@ -82,8 +86,8 @@ Follow the [secrets policy](okf/operations/secrets-policy.md). In short:
 - **Never write:** passwords, API keys, tokens, private keys, recovery codes,
   bank account or routing numbers, card numbers, or anyone's government ID
   number.
-- **Instead,** record where a secret is kept, in the `credentials` field:
-  `credentials: "{{password_manager}} › <vault> › <item>"`.
+- **Instead,** record where a secret is kept, in the `x-credentials` field:
+  `x-credentials: "{{password_manager}} › <vault> › <item>"`.
 - **Allowed:** the company's tax ID, registration numbers, registered address,
   and other facts that appear on public or customer-facing documents.
 - **Keep personal data out:** no home addresses, personal phone numbers, pay,

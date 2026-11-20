@@ -4,9 +4,9 @@ title: Marketing strategy
 description: Who marketing is trying to reach, with what message, and how success is measured.
 tags: [marketing]
 status: draft
-owner: /people/roles/cmo
-# period: 2027
-# state: proposed
+x-owner: /people/roles/cmo
+# x-period: 2027
+# x-state: proposed
 ---
 
 # Goals

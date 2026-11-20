@@ -1,9 +1,9 @@
 ---
 type: Policy
 status: draft
-owner:
-# effective: 2027-01-31
-# applies_to: [everyone]
+x-owner:
+# x-effective: 2027-01-31
+# x-applies-to: [everyone]
 ---
 
 # Policy

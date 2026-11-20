@@ -4,13 +4,13 @@ title: GitHub
 description: Hosts this repository and runs its checks.
 tags: [operations]
 status: draft
-category: software
-owner: /people/roles/cto
+x-category: software
+x-owner: /people/roles/cto
 resource: https://github.com
-# plan: Team
-# cost: { amount: 0, currency: USD, period: month }
-# renewal: 2027-01-31
-# credentials: "{{password_manager}} › <vault> › GitHub"
+# x-plan: Team
+# x-cost: { amount: 0, currency: USD, period: month }
+# x-renewal: 2027-01-31
+# x-credentials: "{{password_manager}} › <vault> › GitHub"
 ---
 
 # What we use it for

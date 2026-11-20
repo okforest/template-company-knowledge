@@ -4,9 +4,10 @@ What {{company_name}} is and how it operates: its products, market, revenue
 operations, people, operations, finance, and legal. Written for people joining
 the company and for the AI assistants that work with it.
 
-The knowledge is an [Open Knowledge Format (OKF)](https://github.com/GoogleCloudPlatform/open-knowledge-format)
-v0.2 bundle in [`okf/`](okf/index.md): one markdown file per concept, with
-YAML frontmatter. Start at [`okf/index.md`](okf/index.md).
+The knowledge is an [Open Knowledge Format (OKF)](https://github.com/open-knowledge-format/open-knowledge-format/blob/main/SPEC.md)
+bundle in [`okf/`](okf/index.md): one markdown file per concept, with YAML
+frontmatter. Start at [`okf/index.md`](okf/index.md), which declares the OKF
+version it follows (`okf_version`).
 
 ## Using this template
 
@@ -27,9 +28,9 @@ npx giget gh:okforest/template-company-knowledge acme-knowledge
       `npx okforest validate okf` warns about each one left in a page.
 - [ ] Add yourself (and anyone else) in `okf/people/team/` with
       `npx okforest new Person people/team/<name>.md --root okf`.
-- [ ] Set `held_by` and `state` on each role in `okf/people/roles/`. One person
-      can hold several roles (`state: interim`). Delete roles nobody needs, and
-      reassign the pages they owned.
+- [ ] Set `x-held-by` and `x-state` on each role in `okf/people/roles/`. One
+      person can hold several roles (`x-state: interim`). Delete roles nobody
+      needs, and reassign the pages they owned.
 - [ ] Fill in `okf/company/overview.md`, then the rest of `okf/company/`.
 - [ ] Delete starter pages that don't apply, and their lines in `index.md`.
 - [ ] Replace the entry in `okf/log.md` with today's date.
@@ -50,8 +51,8 @@ template. Set it up for our company, following AGENTS.md:
 1. Ask me for the company's name and the password manager we use, then
    replace every {{company_name}} and {{password_manager}} in the repository.
 2. Ask me who works here, their job titles, and which roles each person
-   holds. Create a Person page for each in okf/people/team/ and set held_by
-   and state on the roles. Suggest removing roles nobody holds or needs.
+   holds. Create a Person page for each in okf/people/team/ and set x-held-by
+   and x-state on the roles. Suggest removing roles nobody holds or needs.
 3. Interview me to fill in okf/company/overview.md, mission.md, vision.md,
    and values.md. Leave anything I don't know as a draft.
 4. Read our website, if we have one, and draft

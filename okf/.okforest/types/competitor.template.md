@@ -1,7 +1,7 @@
 ---
 type: Competitor
 status: draft
-competes_with: []
+x-competes-with: []
 # resource: https://www.competitor.example
 ---
 

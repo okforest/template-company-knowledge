@@ -4,11 +4,11 @@ title: CTO
 description: "Chief Technology Officer: owns the products and security."
 tags: [people]
 status: draft
-state: open
-reports_to: /people/roles/ceo
-leadership: true
-# held_by: /people/team/jane-doe
-# employment: employee
+x-state: open
+x-reports-to: /people/roles/ceo
+x-leadership: true
+# x-held-by: /people/team/jane-doe
+# x-employment: employee
 ---
 
 # Responsibilities

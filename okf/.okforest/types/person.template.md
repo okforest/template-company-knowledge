@@ -1,7 +1,7 @@
 ---
 type: Person
 status: draft
-job_title:
+x-job-title:
 ---
 
 # About

@@ -4,8 +4,8 @@ title: Messaging
 description: The approved taglines and descriptions of the company, to quote as written.
 tags: [brand]
 status: draft
-owner: /people/roles/cmo
-# adopted: 2027-01-31
+x-owner: /people/roles/cmo
+# x-adopted: 2027-01-31
 ---
 
 # Tagline

@@ -4,9 +4,9 @@ title: AI usage policy
 description: How people at the company may use AI tools, and what AI agents may do.
 tags: [operations]
 status: draft
-owner: /people/roles/coo
-# effective: 2027-01-31
-applies_to: [everyone, contractors, ai-agents]
+x-owner: /people/roles/coo
+# x-effective: 2027-01-31
+x-applies-to: [everyone, contractors, ai-agents]
 ---
 
 # Policy

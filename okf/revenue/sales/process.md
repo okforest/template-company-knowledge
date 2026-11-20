@@ -4,8 +4,8 @@ title: Sales process
 description: How a prospect becomes a customer, from first contact to signed agreement.
 tags: [sales]
 status: draft
-owner: /people/roles/cro
-# trigger: A prospect shows interest
+x-owner: /people/roles/cro
+# x-trigger: A prospect shows interest
 ---
 
 # Purpose

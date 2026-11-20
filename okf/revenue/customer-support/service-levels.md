@@ -4,9 +4,9 @@ title: Service levels
 description: The response and resolution times we commit to customers.
 tags: [support]
 status: draft
-owner: /people/roles/cro
-# effective: 2027-01-31
-# applies_to: [customer support]
+x-owner: /people/roles/cro
+# x-effective: 2027-01-31
+# x-applies-to: [customer support]
 ---
 
 # Policy

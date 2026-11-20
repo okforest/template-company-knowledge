@@ -4,7 +4,7 @@ title: Billing and collections
 description: How customers are invoiced and how payment is collected.
 tags: [finance]
 status: draft
-owner: /people/roles/cfo
+x-owner: /people/roles/cfo
 ---
 
 # Purpose

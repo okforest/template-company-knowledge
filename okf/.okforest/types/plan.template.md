@@ -1,9 +1,9 @@
 ---
 type: Plan
 status: draft
-owner:
-# period: 2027-Q1
-# state: proposed
+x-owner:
+# x-period: 2027-Q1
+# x-state: proposed
 ---
 
 # Goals
