@@ -4,7 +4,7 @@ title: Incident response
 description: What to do when a system fails or data may be exposed, from the first report to the review afterwards.
 tags: [security]
 status: draft
-x-owner: /people/roles/cto
+x-owner: /people/roles/ciso
 x-trigger: A suspected security incident (a lost device, a phishing email, a leaked password, unexpected access) or an outage
 ---
 

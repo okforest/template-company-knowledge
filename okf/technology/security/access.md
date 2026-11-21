@@ -4,7 +4,7 @@ title: Access
 description: Who gets access to which systems, how it's approved, and how it's removed.
 tags: [security]
 status: draft
-x-owner: /people/roles/cto
+x-owner: /people/roles/ciso
 # x-effective: 2027-01-31
 x-applies-to: [everyone, contractors, ai-agents]
 ---

@@ -4,7 +4,7 @@ title: Security policy
 description: How we protect company and customer systems and data.
 tags: [security]
 status: draft
-x-owner: /people/roles/cto
+x-owner: /people/roles/ciso
 # x-effective: 2027-01-31
 x-applies-to: [everyone, contractors, ai-agents]
 ---

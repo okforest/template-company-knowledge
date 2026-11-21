@@ -24,7 +24,6 @@ x-leadership: true
 - [Meeting cadence](/operations/meeting-cadence.md)
 - [Onboarding](/people/onboarding.md)
 - [Org chart](/people/org-chart.md)
-- [Secrets policy](/technology/security/secrets-policy.md)
 
 # Decisions
 
