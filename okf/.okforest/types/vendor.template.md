@@ -8,6 +8,8 @@ x-owner:
 # x-cost: { amount: 0, currency: USD, period: month }
 # x-renewal: 2027-01-31
 # x-credentials: "<password manager> › <vault> › <item>"
+# x-status-page: https://status.vendor.example
+# x-trust-center: https://trust.vendor.example
 ---
 
 # What we use it for
