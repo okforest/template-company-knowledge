@@ -16,6 +16,7 @@ flowchart TD
   ceo --> cro["CRO"]
   ceo --> coo["COO"]
   ceo --> cto["CTO"]
+  ceo --> ciso["CISO"]
 ```
 
 Each box is a [role](/people/roles/index.md); who holds it is on the role's

@@ -35,4 +35,4 @@ profile](/market/ideal-customer-profile.md).
 
 <!-- Fill in the legal name, entity type, jurisdiction, and tax ID above. The tax
 ID is not a secret; bank details and passwords never go here (see the
-[secrets policy](/operations/secrets-policy.md)). -->
+[secrets policy](/technology/security/secrets-policy.md)). -->

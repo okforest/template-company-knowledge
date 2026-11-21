@@ -32,8 +32,9 @@ password manager) rather than guessing.
 ## Writing concepts
 
 - One concept per file, in the folder for its area (`company/`, `products/`,
-  `market/`, `revenue/`, `people/`, `operations/`, `finance/`, `legal/`). File
-  and folder names are lowercase slugs: `ideal-customer-profile.md`.
+  `market/`, `revenue/`, `people/`, `operations/`, `technology/`, `finance/`,
+  `legal/`). File and folder names are lowercase slugs:
+  `ideal-customer-profile.md`.
 - Start new pages from their type's template:
   `npx okforest new <Type> <path> --root okf --title "…" --description "…"`.
   The path is inside `okf/`, e.g. `operations/vendors/acme-cloud.md`.
@@ -81,7 +82,7 @@ password manager) rather than guessing.
 
 ## Secrets and personal data
 
-Follow the [secrets policy](okf/operations/secrets-policy.md). In short:
+Follow the [secrets policy](okf/technology/security/secrets-policy.md). In short:
 
 - **Never write:** passwords, API keys, tokens, private keys, recovery codes,
   bank account or routing numbers, card numbers, or anyone's government ID

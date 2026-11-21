@@ -2,9 +2,9 @@
 type: Policy
 title: Secrets policy
 description: Secrets never go in this repository; it records where they are kept.
-tags: [operations]
+tags: [security]
 status: draft
-x-owner: /people/roles/coo
+x-owner: /people/roles/ciso
 # x-effective: 2027-01-31
 x-applies-to: [everyone, contractors, ai-agents]
 ---

@@ -1,7 +1,7 @@
 ---
 type: Role
 title: CTO
-description: "Chief Technology Officer: owns the products and security."
+description: "Chief Technology Officer: owns the company's systems and how they fit together."
 tags: [people]
 status: draft
 x-state: open
@@ -17,8 +17,8 @@ x-leadership: true
 
 # Owns
 
+- [Architecture](/technology/architecture.md)
 - [GitHub](/operations/vendors/github.md)
-- [Security](/operations/security.md)
 
 # Decisions
 

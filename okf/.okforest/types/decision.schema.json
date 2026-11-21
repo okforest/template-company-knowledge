@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Decision",
+  "description": "A choice the company made: what was decided, why, what else was considered, and what follows from it.",
+  "type": "object",
+  "required": [
+    "x-owner",
+    "x-state"
+  ],
+  "properties": {
+    "x-owner": {
+      "$ref": "#/$defs/role",
+      "description": "The role responsible for keeping this page true."
+    },
+    "x-state": {
+      "enum": [
+        "proposed",
+        "accepted",
+        "rejected"
+      ],
+      "description": "proposed: still being decided; accepted: in effect; rejected: considered and not taken. A decision a later one replaces is deprecated, with superseded_by naming the new one."
+    },
+    "x-decided": {
+      "$ref": "#/$defs/date",
+      "description": "When it was accepted or rejected."
+    },
+    "x-decided-by": {
+      "$ref": "#/$defs/role",
+      "description": "The role that made the decision."
+    }
+  },
+  "propertyNames": {
+    "not": {
+      "pattern": "(password|passwd|secret|token|api[_-]?key|private[_-]?key|account[_-]?number|routing)"
+    }
+  },
+  "$defs": {
+    "role": {
+      "type": "string",
+      "pattern": "^/people/roles/[a-z0-9-]+(\\.md)?$",
+      "description": "A Role page, e.g. /people/roles/cfo."
+    },
+    "date": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+      "description": "A date: YYYY-MM-DD."
+    }
+  }
+}
