@@ -7,6 +7,8 @@ status: draft
 x-category: software
 x-owner: /people/roles/cto
 resource: https://github.com
+x-status-page: https://www.githubstatus.com
+x-trust-center: https://github.com/trust-center
 # x-plan: Team
 # x-cost: { amount: 0, currency: USD, period: month }
 # x-renewal: 2027-01-31

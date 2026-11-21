@@ -64,6 +64,16 @@
     "x-credentials": {
       "type": "string",
       "description": "Where credentials are kept, e.g. <password manager> › <vault> › <item>. Never the credentials themselves."
+    },
+    "x-status-page": {
+      "type": "string",
+      "format": "uri",
+      "description": "The vendor's public status page, where it reports outages and incidents."
+    },
+    "x-trust-center": {
+      "type": "string",
+      "format": "uri",
+      "description": "The vendor's trust center (some call it a trust hub, or a security page): where to find its SOC 2 report, ISO 27001 certificate, subprocessors, and security policies."
     }
   },
   "propertyNames": {
