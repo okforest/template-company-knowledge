@@ -12,5 +12,6 @@ description: What {{company_name}} is and how it operates, for people joining th
 * [Revenue](revenue/index.md) - How we win and keep customers: marketing, sales, and customer support.
 * [People](people/index.md) - Roles, the team, the org chart, and onboarding.
 * [Operations](operations/index.md) - How the company runs day to day: vendors, meetings, and operating policies.
+* [Technology](technology/index.md) - The systems we run on and build, how we keep them secure, and the decisions behind them.
 * [Finance](finance/index.md) - Budgets, billing, and accounting.
 * [Legal](legal/index.md) - Intellectual property and compliance. Agreements go in a contracts/ folder.

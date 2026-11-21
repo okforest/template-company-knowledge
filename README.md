@@ -1,8 +1,8 @@
 # {{company_name}} Knowledge
 
 What {{company_name}} is and how it operates: its products, market, revenue
-operations, people, operations, finance, and legal. Written for people joining
-the company and for the AI assistants that work with it.
+operations, people, operations, technology, finance, and legal. Written for
+people joining the company and for the AI assistants that work with it.
 
 The knowledge is an [Open Knowledge Format (OKF)](https://github.com/open-knowledge-format/open-knowledge-format/blob/main/SPEC.md)
 bundle in [`okf/`](okf/index.md): one markdown file per concept, with YAML
@@ -80,6 +80,7 @@ Keep it general: no company-specific content. The template is licensed
 | `okf/revenue/` | Marketing, sales, and customer support |
 | `okf/people/` | Roles, team, org chart, onboarding |
 | `okf/operations/` | Vendors, meeting cadence, and operating policies |
+| `okf/technology/` | Architecture, security (policy, access, incident response, secrets), and decisions |
 | `okf/finance/` | Budgets, billing, accounting |
 | `okf/legal/` | Contracts, intellectual property, compliance |
 | `okf/.okforest/` | OKForest settings, and each type's schema and template |
@@ -102,4 +103,4 @@ npx okforest inventory okf
 
 The starter pages are drafts (`status: draft`): fill them in, remove the
 guidance comments, and mark them `stable`. Never commit secrets: see the
-[secrets policy](okf/operations/secrets-policy.md).
+[secrets policy](okf/technology/security/secrets-policy.md).
