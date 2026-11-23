@@ -19,10 +19,10 @@ x-state: interim. -->
 
 # Owns
 
-- [Access](/technology/security/access.md)
-- [Incident response](/technology/security/incident-response.md)
-- [Secrets policy](/technology/security/secrets-policy.md)
-- [Security policy](/technology/security/security-policy.md)
+- [Access](../../technology/security/access.md)
+- [Incident response](../../technology/security/incident-response.md)
+- [Secrets policy](../../technology/security/secrets-policy.md)
+- [Security policy](../../technology/security/security-policy.md)
 
 # Decisions
 

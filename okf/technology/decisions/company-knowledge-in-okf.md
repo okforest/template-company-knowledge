@@ -13,7 +13,7 @@ x-state: accepted
 # Decision
 
 What the company is and how it runs is kept in this repository, in the
-[Open Knowledge Format](/company/glossary/okf.md): one markdown page per
+[Open Knowledge Format](../../company/glossary/okf.md): one markdown page per
 concept, reviewed before it changes, and read by people and AI assistants
 alike.
 
@@ -32,4 +32,4 @@ store), and why it wasn't chosen. -->
 
 <!-- What follows: changes are reviewed before they're merged, every page
 names its owner, and secrets stay out (see the
-[secrets policy](/technology/security/secrets-policy.md)). -->
+[secrets policy](../security/secrets-policy.md)). -->

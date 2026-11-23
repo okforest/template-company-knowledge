@@ -17,8 +17,8 @@ x-leadership: true
 
 # Owns
 
-- [Architecture](/technology/architecture.md)
-- [GitHub](/operations/vendors/github.md)
+- [Architecture](../../technology/architecture.md)
+- [GitHub](../../operations/vendors/github.md)
 
 # Decisions
 

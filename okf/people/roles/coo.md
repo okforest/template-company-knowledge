@@ -17,13 +17,13 @@ x-leadership: true
 
 # Owns
 
-- [AI usage policy](/operations/ai-usage-policy.md)
-- [Company knowledge in OKF](/technology/decisions/company-knowledge-in-okf.md)
-- [Compliance](/legal/compliance.md)
-- [Intellectual property](/legal/intellectual-property.md)
-- [Meeting cadence](/operations/meeting-cadence.md)
-- [Onboarding](/people/onboarding.md)
-- [Org chart](/people/org-chart.md)
+- [AI usage policy](../../operations/ai-usage-policy.md)
+- [Company knowledge in OKF](../../technology/decisions/company-knowledge-in-okf.md)
+- [Compliance](../../legal/compliance.md)
+- [Intellectual property](../../legal/intellectual-property.md)
+- [Meeting cadence](../../operations/meeting-cadence.md)
+- [Onboarding](../onboarding.md)
+- [Org chart](../org-chart.md)
 
 # Decisions
 

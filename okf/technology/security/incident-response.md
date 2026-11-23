@@ -18,7 +18,7 @@ and learn from it. -->
 <!-- Numbered steps, each naming the role that does it: who to report to
 and how (anyone, at once; don't investigate alone or delete anything), who
 decides how serious it is, how it's contained, who must be told and by when
-(customers, regulators, insurers: see [compliance](/legal/compliance.md)),
+(customers, regulators, insurers: see [compliance](../../legal/compliance.md)),
 and the review afterwards. -->
 
 # Tools
