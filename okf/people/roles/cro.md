@@ -17,12 +17,12 @@ x-leadership: true
 
 # Owns
 
-- [Escalation](/revenue/customer-support/escalation.md)
-- [Objection handling](/revenue/sales/objection-handling.md)
-- [Pipeline stages](/revenue/sales/pipeline-stages.md)
-- [Sales process](/revenue/sales/process.md)
-- [Service levels](/revenue/customer-support/service-levels.md)
-- [Support process](/revenue/customer-support/support-process.md)
+- [Escalation](../../revenue/customer-support/escalation.md)
+- [Objection handling](../../revenue/sales/objection-handling.md)
+- [Pipeline stages](../../revenue/sales/pipeline-stages.md)
+- [Sales process](../../revenue/sales/process.md)
+- [Service levels](../../revenue/customer-support/service-levels.md)
+- [Support process](../../revenue/customer-support/support-process.md)
 
 # Decisions
 

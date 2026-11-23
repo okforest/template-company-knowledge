@@ -17,13 +17,13 @@ x-leadership: true
 
 # Owns
 
-- [Competitive landscape](/market/competitive-landscape.md)
-- [Marketing channels](/revenue/marketing/channels.md)
-- [Marketing strategy](/revenue/marketing/strategy.md)
-- [Messaging](/company/brand/messaging.md)
-- [Positioning](/market/positioning.md)
-- [Visual identity](/company/brand/identity.md)
-- [Voice and tone](/company/brand/voice-and-tone.md)
+- [Competitive landscape](../../market/competitive-landscape.md)
+- [Marketing channels](../../revenue/marketing/channels.md)
+- [Marketing strategy](../../revenue/marketing/strategy.md)
+- [Messaging](../../company/brand/messaging.md)
+- [Positioning](../../market/positioning.md)
+- [Visual identity](../../company/brand/identity.md)
+- [Voice and tone](../../company/brand/voice-and-tone.md)
 
 # Decisions
 

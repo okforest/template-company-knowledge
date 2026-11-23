@@ -13,7 +13,7 @@ x-owner: /people/roles/cto
 and files, customer records, accounting, the website, and anything it builds
 for customers. This page is the map: what each system is for, which role
 owns it, and what data it holds. Link each to its
-[vendor page](/operations/vendors/index.md); a system the company builds
+[vendor page](../operations/vendors/index.md); a system the company builds
 belongs here too, linked from its product's page. -->
 
 # Diagram
@@ -38,4 +38,4 @@ crm -> accounting: invoices
 # Data
 
 <!-- Where customer and company data is kept, which system is the source of
-truth for each kind, and who can reach it (see [access](/technology/security/access.md)). -->
+truth for each kind, and who can reach it (see [access](security/access.md)). -->

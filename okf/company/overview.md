@@ -19,20 +19,20 @@ status: draft
 
 # Why we exist
 
-See the [mission](/company/mission.md) and [vision](/company/vision.md).
+See the [mission](mission.md) and [vision](vision.md).
 
 # Products
 
 <!-- What we sell, linking to each product's overview. The
-[portfolio](/products/portfolio.md) explains how they fit together. -->
+[portfolio](../products/portfolio.md) explains how they fit together. -->
 
 # Customers
 
 Who we serve is described in the [ideal customer
-profile](/market/ideal-customer-profile.md).
+profile](../market/ideal-customer-profile.md).
 
 # Legal entity
 
 <!-- Fill in the legal name, entity type, jurisdiction, and tax ID above. The tax
 ID is not a secret; bank details and passwords never go here (see the
-[secrets policy](/technology/security/secrets-policy.md)). -->
+[secrets policy](../technology/security/secrets-policy.md)). -->

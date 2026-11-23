@@ -16,11 +16,11 @@ x-leadership: true
 
 # Owns
 
-- [History](/company/history.md)
-- [Mission](/company/mission.md)
-- [Product portfolio](/products/portfolio.md)
-- [Values](/company/values.md)
-- [Vision](/company/vision.md)
+- [History](../../company/history.md)
+- [Mission](../../company/mission.md)
+- [Product portfolio](../../products/portfolio.md)
+- [Values](../../company/values.md)
+- [Vision](../../company/vision.md)
 
 # Decisions
 

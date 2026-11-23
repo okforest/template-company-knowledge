@@ -19,5 +19,5 @@ flowchart TD
   ceo --> ciso["CISO"]
 ```
 
-Each box is a [role](/people/roles/index.md); who holds it is on the role's
+Each box is a [role](roles/index.md); who holds it is on the role's
 page. Keep this diagram in step with each role's `x-reports-to`.

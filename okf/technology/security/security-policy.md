@@ -13,9 +13,9 @@ x-applies-to: [everyone, contractors, ai-agents]
 
 <!-- Device requirements (screen lock, disk encryption, updates), how
 company and customer data is handled and where it may be kept, and security
-training. Who gets access to what is the [access policy](/technology/security/access.md);
+training. Who gets access to what is the [access policy](access.md);
 what to do when something goes wrong is
-[incident response](/technology/security/incident-response.md). -->
+[incident response](incident-response.md). -->
 
 # Why
 

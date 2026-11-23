@@ -19,4 +19,4 @@ x-owner: /people/roles/cro
 # Exceptions
 
 <!-- Security incidents and outages follow
-[incident response](/technology/security/incident-response.md) instead. -->
+[incident response](../../technology/security/incident-response.md) instead. -->

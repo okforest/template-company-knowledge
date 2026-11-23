@@ -47,8 +47,13 @@ password manager) rather than guessing.
 - Fields OKF doesn't define start with `x-` (`x-owner`), so a later OKF
   version can't give them another meaning. Name a new field the same way,
   and add it to its type's schema and template in the same change.
-- Link with standard markdown links, using absolute paths from the bundle
-  root (`okf/`): `[ideal customer profile](/market/ideal-customer-profile.md)`.
+- Link with standard markdown links, relative to the linking page's folder, so
+  they work on GitHub too: `[positioning](positioning.md)` from a page in
+  `market/`, or `[positioning](../market/positioning.md)` from one in
+  `revenue/`. Paths in frontmatter (`x-owner`, `resource`, `superseded_by`)
+  stay absolute from the bundle root (`okf/`), like `/people/roles/coo`, and
+  so do links in `.okforest/types/` templates, since the pages made from them
+  land in other folders.
 - `index.md` and `log.md` are reserved names in every folder. Keep each
   folder's `index.md` up to date when you add, rename, or remove a page, and
   give a new folder its own `index.md`, listed in its parent's. Record notable

@@ -15,7 +15,7 @@ x-owner: /people/roles/cro
 # Steps
 
 <!-- Numbered steps, each naming the role that does it. Link the
-[pipeline stages](/revenue/sales/pipeline-stages.md). -->
+[pipeline stages](pipeline-stages.md). -->
 
 # Tools
 

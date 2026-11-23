@@ -23,4 +23,4 @@ agent) that does it. -->
 
 # Exceptions
 
-<!-- When to skip a step, and when to [escalate](/revenue/customer-support/escalation.md). -->
+<!-- When to skip a step, and when to [escalate](escalation.md). -->

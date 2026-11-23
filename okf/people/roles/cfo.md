@@ -17,9 +17,9 @@ x-leadership: true
 
 # Owns
 
-- [Accounting](/finance/accounting.md)
-- [Billing and collections](/finance/billing-and-collections.md)
-- [Budgeting](/finance/budgeting.md)
+- [Accounting](../../finance/accounting.md)
+- [Billing and collections](../../finance/billing-and-collections.md)
+- [Budgeting](../../finance/budgeting.md)
 
 # Decisions
 
