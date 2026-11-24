@@ -63,8 +63,10 @@ password manager) rather than guessing.
 
 - Don't invent facts. If something is unknown, leave the guidance comment in
   place and ask, rather than filling it in with a guess.
-- When content comes from a document or site, cite it in `sources` and use
-  footnotes in the body.
+- When content comes from a document or site, cite it in `sources`. When a
+  page has more than one source, attribute each claim with a footnote whose
+  label is its source's `id` (`[^pricing]`); a page with one source needs
+  none, since `sources` already covers all of it.
 - When you write content, set `generated: { by: <agent>/<version>, at: <time> }`.
   Never add a `verified` entry for a person (`human:…`); only that person
   can do that.
